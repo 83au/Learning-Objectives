@@ -48,7 +48,7 @@ table {
 }
 
 
-/* Styles */
+/* Main Styles */
 
 body {
   background: linear-gradient(#FFF61D, #FF972A);
@@ -91,4 +91,12 @@ li {
 
 .sublist {
 	margin-left: 20px;
+}
+
+
+/* Checklist */
+
+#atom {
+	font-size: 1.1em;
+	text-decoration: underline;
 }
