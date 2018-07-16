@@ -11,8 +11,7 @@ body {
 
 .container {
 	display: flex;
-	justify-content: space-around;
-	border: 1px solid green
+	flex-wrap: wrap;
 }
 
 section {
@@ -69,28 +68,29 @@ li {
 	font-weight: bold;
 }
 
-@media only screen and (max-width: 974px), (orientation: portrait) {
+@media only screen and (max-width: 1039px), (orientation: portrait) {
 	.container {
-		flex-wrap: wrap;
+		flex-direction: column;
 	}
 	section {
-		display: flex;
-		width: 80%;
-		margin: 5% auto;
+	display: flex;
+	width: 80%;
+	padding-left: 4em;
+	margin: 5% auto;
 	}
 	h2 {
-		font-size: 4em;
+		font-size: 4.5em;
 	}
 	h5 {
-		font-size: 1.4em;
+		font-size: 1.5em;
 	}
 	li {
-		font-size: 1.2em;
+		font-size: 1.5em;
 	}
 	.current {
-		font-size: 1.3em;
+		font-size: 1.8em;
 	}
 	h1 {
-		font-size: 4.5em;
+		font-size: 5em;
 	}
 }
