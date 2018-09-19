@@ -68,7 +68,7 @@ li {
 /* Checklist */
 
 .current {
-	font-size: 1.1em;
+	font-size: 1.3em;
 	text-decoration: underline;
 	font-weight: bold;
 }
