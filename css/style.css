@@ -3,6 +3,11 @@
 	padding: 0;
 }
 
+html {
+	min-width: 100%;
+	min-height: 100%;
+}
+
 /* Main Styles */
 
 body {
@@ -85,14 +90,14 @@ li {
 
 	.container {
 		flex-direction: column;
-		align-items: center;
+		align-content: center;
 	}
 
 	section {
-	display: flex;
-	justify-content: center;
-	padding-left: 4em;
-	margin: 5% auto;
+		display: flex;
+		justify-content: center;
+		padding-left: 4em;
+		margin: 5% auto;
 	}
 
 	h2 {
