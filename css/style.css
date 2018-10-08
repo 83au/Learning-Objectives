@@ -3,11 +3,6 @@
 	padding: 0;
 }
 
-html {
-	min-width: 100%;
-	min-height: 100%;
-}
-
 /* Main Styles */
 
 body {
@@ -61,7 +56,7 @@ h5 {
 li {
   list-style: disc;
 	font-size: 1em;
-  margin: 1em 2em 1.3em 0.5em;
+  margin: 1em 1em 1.3em 0;
 }
 
 .sublist {
@@ -81,6 +76,9 @@ li {
 .complete {
 	text-decoration: line-through;
 }
+
+
+/* Media Query */
 
 @media only screen and (max-width: 1039px) and (orientation: portrait) {
 	h1 {
