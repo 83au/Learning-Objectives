@@ -7,6 +7,7 @@
 
 body {
   background: linear-gradient(#FFF61D, #FF972A);
+	min-height: 100vh;
 }
 
 .container {
@@ -24,7 +25,6 @@ section {
 	border-radius: 20px;
 	box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
   padding: 2rem 1rem;
-	margin: 2.5%;
 }
 
 h2,
@@ -39,7 +39,6 @@ h1 {
 	font-family: 'Shadows Into Light', cursive;
   text-decoration: underline;
   text-align: center;
-  margin-top: .5em;
   color: #5151DE;
 	text-shadow: 2px 2px 2px #4AAA8D;
 }
