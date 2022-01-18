@@ -8,6 +8,7 @@
 body {
   background: linear-gradient(#FFF61D, #FF972A);
 	min-height: 100vh;
+	padding-bottom: 1rem;
 }
 
 .container {
