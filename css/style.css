@@ -28,7 +28,7 @@ section {
   padding: 2rem 1rem;
 }
 
-h2,
+h3,
 h5,
 h6,
 ul {
@@ -36,7 +36,7 @@ ul {
   font-family: 'Nunito', sans-serif;
 }
 
-h1 {
+h1, h2 {
 	font-size: 5em;
 	font-family: 'Shadows Into Light', cursive;
   text-decoration: underline;
@@ -45,7 +45,8 @@ h1 {
 	text-shadow: 2px 2px 2px #4AAA8D;
 }
 
-h2 {
+
+h2, h3 {
   font-size: 3.5em;
   text-decoration: underline;
   margin: 0 auto 0.5em auto;
