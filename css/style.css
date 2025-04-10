@@ -81,7 +81,7 @@ li {
 	font-weight: bold;
 }
 
-.complete {
+.complete, .done {
 	text-decoration: line-through;
 }
 
