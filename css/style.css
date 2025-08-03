@@ -29,6 +29,7 @@ section {
 }
 
 h3,
+h4,
 h5,
 h6,
 ul {
@@ -36,7 +37,7 @@ ul {
   font-family: 'Nunito', sans-serif;
 }
 
-h1, h2 {
+h1 {
 	font-size: 5em;
 	font-family: 'Shadows Into Light', cursive;
   text-decoration: underline;
@@ -52,7 +53,7 @@ h2, h3 {
   margin: 0 auto 0.5em auto;
 }
 
-h5 {
+h4, h5 {
 	margin-bottom: 1em;
 	font-size: .9em;
 }
